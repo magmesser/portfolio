@@ -1,0 +1,13 @@
+h1 {
+    color: aqua;
+}
+
+img {
+    width: 25%;
+    height: auto;
+    border-radius: 8px;
+}
+
+img:hover {
+    border: 1px solid palevioletred;
+}
