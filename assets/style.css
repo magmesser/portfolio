@@ -111,10 +111,37 @@ h3 {
     color: #7192b1;
 }
 
-/* About */
+/* Portfolio Section */
+.tile {
+    width: 200px;
+    height: auto;
+    border-radius: 0;
+}
+
+.holder {
+    width: 150px;
+}
+
+.link:hover {
+    box-shadow: 9px 8px 27px -6px #356976;
+}
+
+
+/* About Section */
+figure {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
 .aboutImages {
-    height: 200px;
+    height: 250px;
     width: auto;
+    padding-bottom: 10px;
+    flex: 2 0 1;
 }
 
 .aboutImages:hover {
@@ -122,7 +149,7 @@ h3 {
     height: 400px;
 }
 
-/* Contact */
+/* Contact Section*/
 #contactList li {
     padding: 0 20px;
     text-decoration: none;
@@ -142,7 +169,9 @@ h3 {
 
 /* Media Queries */
 @media screen and (max-width: 600px) {
-    .aboutImages {
+
+    .aboutImages,
+    .tile {
         height: 400px;
         width: auto;
     }
