@@ -1,41 +1,149 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: ShadowsIntoLightTwo-Regular; 
 }
 
-/* Header */
+/* Colors:
+light slate #b4c9ce
+dark slate #7192b1
+taupe #d2d8ce
+turqoise #356976  */
+
+
+/* Header & Footer - Color: taupe with slate text*/
+header,
+footer {
+    background-color: #d2d8ce;
+    height: 40px;
+    width: 100%;
+    line-height: 40px;
+    font-family: "Gill Sans", sans-serif;
+    color: #7192b1;
+}
 
 header {
-    background-color: blueviolet;
+    position: static;
 }
 
-h1 {
-    color: aqua;
+footer {
+    position: static;
+    margin-top: 20px;
+    bottom: 0;
 }
 
-/* Navigation Bar */
-header nav {
-    float: right;
+/* Body - Color: light to dark slate, turqoise text*/
+body {
+    position: relative;
+    background: #b4c9ce;
+    background: linear-gradient(90deg, #b4c9ce 0%, #7192b1 100%);
+    color: #356976;
+    font-size: 20px;
+    font-family: ShadowsIntoLightTwo-Regular;
 }
 
+/* Navigation Bar - Color: taupe with slate text */
 header nav li {
     display: inline;
-    text-decoration: none;
+    text-align: center;
+    padding: 0 20px;
 }
 
-a {
-    font-family: ShadowsIntoLightTwo-Regular; 
+header nav a {
+    font-size: large;
+    text-decoration: none;
+    color: #7192b1;
+}
+
+nav a:hover {
+    color: #356976;
+}
+
+/* Main */
+main {
+    padding: 60 px 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Intro Section - Color: turqoise and taupe text */
+h1 {
+    margin-top: 20px;
+    position: relative;
+}
+
+#paragraph1 {
+    font-family: "Gill Sans", sans-serif;
+    font-size: 20px;
+    color: #d2d8ce
+}
+
+#training {
+    font-style: italic;
 }
 
 /* Headshot Image */
 img {
     width: 400px;
     height: auto;
-    border-radius: 8px;
-    /* add box shadow */
+    border-radius: 25%;
+    opacity: 0.85;
 }
 
-img:hover {
-    border: 8px solid palevioletred;
+/* Meat Sections */
+.meat {
+    margin: 20px;
+    padding: 20px;
+    background-color: #d2d8ce;
+    border: 6px solid #7192b1;
+}
+
+h3 {
+    font-size: 21px;
+    text-decoration: underline;
+    color: #7192b1;
+}
+
+.paragraph2 {
+    font-family: "Gill Sans", sans-serif;
+    font-size: 18px;
+    color: #7192b1;
+}
+
+/* About */
+.aboutImages {
+    height: 200px;
+    width: auto;
+}
+
+.aboutImages:hover {
+    opacity: 1;
+    height: 400px;
+}
+
+/* Contact */
+#contactList li {
+    padding: 0 20px;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+}
+
+#contactList a {
+    text-decoration: none;
+    color: #356976;
+    font-size: 20px;
+}
+
+#contactList a:hover {
+    color: #7192b1;
+}
+
+/* Media Queries */
+@media screen and (max-width: 600px) {
+    .aboutImages {
+        height: 400px;
+        width: auto;
+    }
 }
