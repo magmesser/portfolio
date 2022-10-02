@@ -16,12 +16,12 @@ This project tested the knowledge of HTML and CSS learned in the course thusfar.
 
 ## Links
 
-Click the link below to access the deployed site on GitHub Pages.
+- Click the link below to access the deployed site on GitHub Pages.<br>
+https://magmesser.github.io/portfolio/
 
 
-
-Click the link below to access to application repository on GitHub.
-
+- Click the link below to access to application repository on GitHub. <br>
+https://github.com/magmesser/portfolio
 
 
 ---
@@ -30,3 +30,6 @@ Click the link below to access to application repository on GitHub.
 
 The following images are screenshots of the web application's appearance: 
 
+![Screenshot 1 of the Header section](./assets/images/reademe/Screenshot1.png)
+![Screenshot 2 of the Portfolio and About sections](./assets/images/reademe/Screenshot2.png)
+![Screenshot 3 of the Resume and Contact sections](./assets/images/reademe/Screenshot3.png)
