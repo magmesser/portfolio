@@ -43,7 +43,8 @@ body {
 }
 
 /* Navigation Bar - Color: taupe with slate text */
-header , header nav ul {
+header,
+header nav ul {
     position: static;
     top: 0;
     width: 100%;
@@ -79,7 +80,7 @@ main {
 /* Intro Section - Color: turqoise and taupe text */
 h1 {
     margin: 40px 0 0 0;
-  
+
 }
 
 #paragraph1 {
@@ -178,12 +179,12 @@ figure {
 
 /* Media Queries */
 @media screen and (max-width: 600px) {
-   header {
-    position: flex;
-    flex-wrap: wrap;
-    /* height: 80px;
+    header {
+        position: flex;
+        flex-wrap: wrap;
+        /* height: 80px;
     line-height: 80px; */
-    } 
+    }
 
     header nav li {
         display: inline-flex;
