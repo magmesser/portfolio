@@ -10,7 +10,7 @@ taupe #d2d8ce
 turquoise #356976  */
 
 /* Font */
-@import url(//https://fonts.google.com/specimen/Shadows+Into+Light+Two?query=shadows+into);
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&family=Source+Sans+Pro:wght@200&display=swap');
 
 /* Header & Footer - Color: taupe with slate text*/
 header,
@@ -41,7 +41,7 @@ body {
     background: linear-gradient(90deg, #b4c9ce 0%, #7192b1 100%);
     color: #356976;
     font-size: 20px;
-    font-family: ShadowsIntoLightTwo-Regular;
+    font-family: 'Shadows Into Light Two', cursive;
 }
 
 /* Navigation Bar - Color: taupe with slate text */
