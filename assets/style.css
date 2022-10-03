@@ -41,7 +41,7 @@ body {
     background: linear-gradient(90deg, #b4c9ce 0%, #7192b1 100%);
     color: #356976;
     font-size: 20px;
-    font-family: 'Shadows Into Light Two', cursive;
+    font-family: "Shadows Into Light Two", cursive; 
 }
 
 /* Navigation Bar - Color: taupe with slate text */
