@@ -182,8 +182,6 @@ figure {
     header {
         position: flex;
         flex-wrap: wrap;
-        /* height: 80px;
-    line-height: 80px; */
     }
 
     header nav li {
