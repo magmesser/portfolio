@@ -7,7 +7,7 @@
 light slate #b4c9ce
 dark slate #7192b1
 taupe #d2d8ce
-turqoise #356976  */
+turquoise #356976  */
 
 
 /* Header & Footer - Color: taupe with slate text*/
@@ -32,7 +32,7 @@ footer {
     bottom: 0;
 }
 
-/* Body - Color: light to dark slate, turqoise text*/
+/* Body - Color: light to dark slate, turquoise text*/
 body {
     position: relative;
     background: #b4c9ce;
@@ -77,7 +77,7 @@ main {
     text-align: center;
 }
 
-/* Intro Section - Color: turqoise and taupe text */
+/* Intro Section - Color: turquoise and taupe text */
 h1 {
     margin: 40px 0 0 0;
 
@@ -93,7 +93,7 @@ h1 {
     font-style: italic;
 }
 
-/* Headshot Image */
+/* Head shot Image */
 img {
     width: 400px;
     height: auto;
